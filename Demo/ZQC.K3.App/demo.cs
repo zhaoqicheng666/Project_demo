@@ -11,6 +11,7 @@ namespace ZQC.K3.App
         private void returnData()
         {
             int i = 1;
+            int j = 2;
         }
     }
 }
