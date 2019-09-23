@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZQC.K3.App", "ZQC.K3.App\ZQC.K3.App.csproj", "{04ABEEA3-D986-44B6-8445-ED349FB79222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{ED94D9AE-A134-40B5-B8E7-33EA6027C61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZQC.K3.Contracts", "ZQC.K3.Contracts\ZQC.K3.Contracts.csproj", "{97BB4045-3272-4964-8CEB-286F7BA4F6B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlugIn", "PlugIn", "{4ECD1BBE-CF4C-409F-9686-5811F7001764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessPlugIn", "BusinessPlugIn", "{00197691-E79E-432F-9A49-6DAA240D1BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{74DB0A4D-C515-43E2-A917-2BAE0B826D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04ABEEA3-D986-44B6-8445-ED349FB79222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04ABEEA3-D986-44B6-8445-ED349FB79222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04ABEEA3-D986-44B6-8445-ED349FB79222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04ABEEA3-D986-44B6-8445-ED349FB79222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BB4045-3272-4964-8CEB-286F7BA4F6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BB4045-3272-4964-8CEB-286F7BA4F6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BB4045-3272-4964-8CEB-286F7BA4F6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BB4045-3272-4964-8CEB-286F7BA4F6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04ABEEA3-D986-44B6-8445-ED349FB79222} = {ED94D9AE-A134-40B5-B8E7-33EA6027C61B}
+		{97BB4045-3272-4964-8CEB-286F7BA4F6B5} = {ED94D9AE-A134-40B5-B8E7-33EA6027C61B}
+		{00197691-E79E-432F-9A49-6DAA240D1BAA} = {4ECD1BBE-CF4C-409F-9686-5811F7001764}
+		{74DB0A4D-C515-43E2-A917-2BAE0B826D41} = {4ECD1BBE-CF4C-409F-9686-5811F7001764}
+	EndGlobalSection
+EndGlobal
