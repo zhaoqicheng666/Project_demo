@@ -8,5 +8,9 @@ namespace ZQC.K3.App
 {
     public class demo
     {
+        private void returnData()
+        {
+            int i = 1;
+        }
     }
 }
